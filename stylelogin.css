@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lora', serif;
+    
+}
+
+body {
+  
+    background-image: url(imagenes/login.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+h2 {
+    margin-top: 200px;
+    margin-bottom: 50px;
+    color: #fff;
+    text-decoration: underline;
+    font-size: 50px;
+    font-weight: 600;
+   
+    }
+
+form {
+  
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    background: #1f1e1ec2;
+    padding: 80px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #fffefe;
+}
+
+input[type="text"],
+input[type="password"],
+input[type= "email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    background: #0e1011;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+input[type="submit"]:hover {
+    background: #807c7c;
+}
+
+.parrafo{
+    color: #ccc;
+    font-size: 20px;
+    font-weight:900;
+    margin-top: 20px;
+}
+
+.Registrarse{
+    color: #ccc;
+    font-size: 20px;
+    font-weight: 900;
+}
+.parrafo2{
+    color: #ccc;
+    font-size: 20px;
+    font-weight:900;
+    margin-top: 20px;
+}
+.iniciarsesion{
+    color: #ccc;
+    font-size: 20px;
+    font-weight:900;
+    margin-top: 20px;
+}
+
+
+
+@media (max-width: 576px) {
+    body {
+        background: #0e1011; 
+        text-align: center;
+        
+    }
+
+    h2 {
+        margin-top: 100px; 
+        font-size: 40px; 
+    }
+
+    form {
+        width: 90%; 
+        padding: 40px; 
+    }
+
+    label {
+        font-size: 16px; 
+    }
+
+    input[type="text"],
+    input[type="password"],
+    input[type="email"] {
+        font-size: 16px; 
+    }
+
+    input[type="submit"] {
+        font-size: 16px; 
+    }
+
+    .parrafo,
+    .parrafo2,
+    .iniciarsesion,
+    .Registrarse {
+        font-size: 16px; 
+    }
+}
+
+@media (max-width: 992px) {
+    body {
+        background-image: url(imagenes/login.jpg); 
+    }
+
+    h2 {
+        margin-top: 150px; 
+        font-size: 45px;
+    }
+
+    form {
+        width: 80%; 
+        padding: 60px; 
+    }
+
+    label {
+        font-size: 18px; 
+    }
+
+    input[type="text"],
+    input[type="password"],
+    input[type="email"] {
+        font-size: 18px; 
+    }
+
+    input[type="submit"] {
+        font-size: 18px; 
+    }
+
+    .parrafo,
+    .parrafo2,
+    .iniciarsesion,
+    .Registrarse {
+        font-size: 18px; 
+    }
+}
